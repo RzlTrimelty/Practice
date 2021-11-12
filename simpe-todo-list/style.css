@@ -1,0 +1,15 @@
+ul{list-style: none;}
+
+.toggle-delete{
+    color: red;
+    cursor: pointer;
+}
+.toggle-done{
+    color: green;
+    cursor: pointer;
+}
+
+
+.done :nth-child(1){
+    text-decoration: line-through;
+}
